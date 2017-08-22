@@ -2,7 +2,7 @@
   margin: auto;
   width: 50%;
   text-align: center;
-  color: white;
+  color: #6F361F;
   margin-top: 88px;
   font-family: 'Courgette', cursive;
 }
@@ -24,7 +24,8 @@
   margin: auto;
   width: 50%;
   text-align: center;
-  color: white;
+  color: #6F361F;
+  padding-bottom: 34px;
 }
 
 #subscribe p {
@@ -32,15 +33,32 @@
 }
 
 #subscribe form {
+  margin: auto;
+  width: 50%;
   font-size: 14px;
   text-align: center;
 }
 
-input[type='submit'] {
-  color: black;
+input[type='text'] {
+  border-color: #6F361F;
+  color: #6F361F;
+  font-size: 14px;
 }
 
-input[type='text'] {
-  color: black;
+input[type='submit'] {
+  border-color: #6F361F;
+  color: #6F361F;
   font-size: 14px;
+}
+
+input[type='submit']:focus {
+  border-color: white;
+  background: #6F361F;
+  color: white;
+}
+
+input[type='submit']:hover {
+  border-color: white;
+  background: #6F361F;
+  color: white;
 }

@@ -12,7 +12,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="res/favicon/favicon_symbol_inverse.png">
 </head>
-<body style="background-color: #28170D">
+<body>
   <section id="main">
     <img src="res/logo.png" alt="logo" style="width:100%;">
     <p>Claims processing made easy</p>
@@ -20,23 +20,19 @@
     <p>Coming soon</p>
   </section>
   <hr/>
-  <div class="row">
-    <div class="col-12">
-      <section id="subscribe">
-        <p>Subscribe to get updates</p>
-        <form action="https://formspree.io/info@espressoclaims.com" method="POST" class="form-inline">
-          <input type="email" name="email" hidden value="info@espressoclaims.com" class="form-control">
-          <div class="row">
-            <div class="col-8">
-              <input type="text" name="message" placeholder="Your email" class="form-control">
-            </div>
-            <div class="col-4">
-              <input type="submit" value="Send" class="btn btn-default btn-md" />
-            </div>
-          </div>
-        </form>
-      </section>
-    </div>
-  </div>
+  <section id="subscribe">
+    <p>Subscribe to get updates</p>
+    <form action="https://formspree.io/info@espressoclaims.com" method="POST" class="form-inline">
+      <input type="email" name="email" hidden value="info@espressoclaims.com" class="form-control">
+      <div class="row">
+        <div class="col-xs-10">
+          <input type="text" name="message" placeholder="Your email" class="form-control">
+        </div>
+        <div class="col-xs-2">
+          <input type="submit" value="Send" class="btn btn-default btn-md" />
+        </div>
+      </div>
+    </form>
+  </section>
 </body>
 </html>
