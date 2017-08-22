@@ -4,7 +4,7 @@
   text-align: center;
   color: #6F361F;
   margin-top: 88px;
-  font-family: 'Courgette', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #main p:first-of-type {
@@ -25,7 +25,8 @@
   width: 50%;
   text-align: center;
   color: #6F361F;
-  padding-bottom: 34px;
+  padding-bottom: 88px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #subscribe p {
